@@ -48,8 +48,8 @@ currentTimeContainer.innerHTML = `<h3>${fetchHours}<span>:</span>${fetchMinutes}
   let tempSeconds = tempDate.getSeconds();
 
 
-//   let furtureDate = new Date(2022, 11, 7, 0, 0, 0);
-  let furtureDate = new Date(2022, 11, 7, -1, 19, 0);
+  let furtureDate = new Date(2022, 11, 7, 0, 0, 0);
+//   let furtureDate = new Date(2022, 11, 7, -1, 19, 0);
 
   
 //   const furtureDate = new Date(tempYear, tempMonth,tempDay + 7, 0, 0, 0 );
