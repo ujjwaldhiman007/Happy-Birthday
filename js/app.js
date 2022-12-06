@@ -154,5 +154,6 @@ btns.forEach(function (btn) {
     image.style.display = "block";
     message.style.display = "block";
     birthdaySong.play();
+    imagesContainer.classList.add("images-container-shadow");
   });
 });
