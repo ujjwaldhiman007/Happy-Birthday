@@ -78,6 +78,17 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+.body-style{
+  animation: disco 3s infinite;
+}
+@keyframes disco {
+  from, to { background-color: #9ed613; }
+  25% { background-color: #49a6e9; }
+  50% { background-color: rgb(221, 25, 58); }
+  75% { background-color: rgb(240, 60, 240); }
+  100%{background-color: blue;}
+
+}
 ul {
   list-style-type: none;
 }
