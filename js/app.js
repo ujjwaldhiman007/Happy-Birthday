@@ -23,7 +23,7 @@ const months = [
   ];
   
   // set current time
-  let birthdaySong = new Audio ("../song.mp3");
+  let birthdaySong = new Audio ("./song.mp3");
 const currentTime = new Date();
 console.log(currentTime);
 const fetchHours = currentTime.getHours();
