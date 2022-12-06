@@ -48,8 +48,8 @@ currentTimeContainer.innerHTML = `<h3>${fetchHours}<span>:</span>${fetchMinutes}
   let tempSeconds = tempDate.getSeconds();
 
 
-  
-  let furtureDate = new Date(2022, 11, 7, 0, 0, 0);
+//   let furtureDate = new Date(2022, 11, 7, 0, 0, 0);
+  let furtureDate = new Date(2022, 11, 7, -1, 19, 0);
 
   
 //   const furtureDate = new Date(tempYear, tempMonth,tempDay + 7, 0, 0, 0 );
@@ -125,7 +125,7 @@ currentTimeContainer.innerHTML = `<h3>${fetchHours}<span>:</span>${fetchMinutes}
     document.querySelector("nav").style.visibility = "visible" ;
     document.querySelector(".clock-container").style.backgroundColor = " var(--clr-primary-3)";
     document.querySelector(".countdown").innerHTML = "Congratulations"
-    birthdaySong.play();
+
     }
     // birthdaySong.play();
   }
@@ -153,5 +153,6 @@ btns.forEach(function (btn) {
     console.log(imagesContainer);
     image.style.display = "block";
     message.style.display = "block";
+    birthdaySong.play();
   });
 });
